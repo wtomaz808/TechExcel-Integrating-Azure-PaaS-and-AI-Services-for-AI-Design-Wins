@@ -38,7 +38,7 @@ builder.Services.AddSingleton<CosmosClient>((_) =>
     );
     return client;
 });
-
+/*
 builder.Services.AddSingleton<Kernel>((_) =>
 {
     IKernelBuilder kernelBuilder = Kernel.CreateBuilder();
@@ -50,7 +50,7 @@ builder.Services.AddSingleton<Kernel>((_) =>
     kernelBuilder.Plugins.AddFromType<DatabaseService>();
     return kernelBuilder.Build();
 });
-
+*/
 
 // Create a single instance of the AzureOpenAIClient to be shared across the application.
 builder.Services.AddSingleton<AzureOpenAIClient>((_) =>
