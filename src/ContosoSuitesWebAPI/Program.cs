@@ -8,9 +8,9 @@ using Microsoft.Data.SqlClient;
 using Azure.AI.OpenAI;
 using Azure;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.SemanticKernel;
-using Microsoft.SemanticKernel.Connectors.OpenAI;
-using Microsoft.SemanticKernel.ChatCompletion;
+//using Microsoft.SemanticKernel;
+//using Microsoft.SemanticKernel.Connectors.OpenAI;
+//using Microsoft.SemanticKernel.ChatCompletion;
 
 
 var builder = WebApplication.CreateBuilder(args);
